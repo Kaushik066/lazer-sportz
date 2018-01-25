@@ -1,130 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="icon" href="C:\Users\HariHara\Documents\sports-items\LazerLogo.png" sizes="16x16" type="image/png">
-	<title> Lazer Sportz | Home</title>
-	<meta charset="utf-8">
-	<!-- Compatible with hand-held deviceses -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Font-Awesom libruary -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- Start of body -->
-	<style type="text/css">
-		body{
-			color: #fff;
-			background: #5d0101;
-			padding: auto;
-		}
-	</style>
-	<!-- Start of nav bar -->
-	<style type="text/css">
-		.navbar {
-			margin-bottom: 0;
-			border-radius: 0; 
-			background-color: #000; /* black for the borders */
-			padding: 0.5% 0;
-			font-size: 1.2em;
-			border: 0;
-		}
-		.navbar-brand{
-			padding: 0 15px 5px;
-			float: left;
-			min-height: 50px;
-		}
-		.navbar-inverse .navbar-nav li a{
-			color: #9d9d9d; /* light grey color for text*/
-		}
-		.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus , .navbar-inverse .navbar-nav .active a:hover {
-			color: #fff; /* White color for active text */
-			background-color: #000;  /* black color for active button*/
-		}
-		.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-			background-color: #000; /* black color for mobile toggle button */
-			border-color:  #000;    /* Black color for mobile toggle button*/
-		}
-		.navbar-inverse .navbar-toggle .icon-bar{
-			/*background-color: #9d9d9d;  /*light grey for mobile toggle button */
-		}
-		.navbar-inverse .navbar-collapse {
-			background-color: #000; /* Black color for mobile background*/
-			border-color: #000;     /* Black color for mobile background*/
-		}
-	</style>
-	<!-- Start of Carousel slider -->
-	<style type="text/css">
-		.carousel-inner .item {
-			width:100%;
-		}
-		@media (max-width: 600px){
-			.carousel-caption{
-				display: none;
-			}
-		}
-	</style>
-	<!-- Start of row and column -->
-	<style type="text/css">
-		.container {
-			padding-right: 5px;
-    		padding-left: 10px;
-    		margin-left: auto;
-    		margin-right: auto;
-    		font-size: 1.2em;
-		}
-	</style>
-	<!-- Start of footer -->
-	<style type="text/css">
-		footer{
-			width: 100%;
-			background-color: #000;
-			padding: 5%;
-			color: #fff;
-		}
-		.fa{
-			padding: 20px;
-			font-size: 25px;
-			color: #fff;
-		}
-		.fa:hover{
-			text-decoration: none;
-		}
-		@media(max-width: 900px){
-			.fa{
-				padding: 10px;
-				font-size: 20px;
-			}
-		}
-	</style>
-</head>
-<body>
-	<!-- Start of nav bar  navbar-fixed-top -->
-	<nav class="navbar navbar-inverse ">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"><img src="~/pics/Lazer Sportz.png"></a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">HOME</a></li>
-					<li><a href="#">ITEMS</a></li>
-					<li><a href="#">GALARY</a></li>
-					<li><a href="#">MY CART</a></li>
-					<li><a href="#">LOGIN</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-<!-- End of nav bar -->
+---
+layout : default
+---
 <!-- Start of image slider -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Carousel Indicators -->
@@ -138,19 +14,19 @@
 		<!-- Carousel Slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active" >
-				<img src=" C:\Users\HariHara\Documents\sports-items\cricket.jpg" alt="Cricket" >
+				<img src=" pics\cricket.jpg" alt="Cricket" >
 			</div>
 			<div class="item">
-				<img src=" C:\Users\HariHara\Documents\sports-items\sea.jpg" alt="sea" >
+				<img src="pics\sea.jpg" alt="sea" >
 			</div>
 			<div class="item">
-				<img src=" C:\Users\HariHara\Documents\sports-items\Cycling.jpg" alt="Cycling">
+				<img src="pics\Cycling.jpg" alt="Cycling">
 			</div>
 			<div class="item">
-				<img src=" C:\Users\HariHara\Documents\sports-items\frogs.jpg" alt="frogs">
+				<img src="pics\frogs.jpg" alt="frogs">
 			</div>
 			<div class="item">
-				<img src=" C:\Users\HariHara\Documents\sports-items\dumbels.jpg" alt="dumbels">
+				<img src="pics\dumbels.jpg" alt="dumbels">
 			</div>
 		</div>
 		<!-- Carousel Left and right controls -->
@@ -175,14 +51,14 @@
 				<p>We started with a store in Bangalore, India in 1976, founded by M. Visvesvaraya. It started to expand abroad a decade later, to Germany in 1986, Spain in 1992, Italy in 1998, Portugal, the United Kingdom in 1999, China in 2003, USA in 2009, Malaysia in 2016 and Southeast Asia in 2001 and South Africa, Philippines in 2017 and Australia in 2018. Today, there are more than 1100 stores in 38 countries. The company employs more than 78,000 staff from 80 different nationalities.</p>
 			</div>
 			<div class="col-md-6">
-				<img src="C:\Users\HariHara\Documents\sports-items\store-design.jpg" alt="store-design" class="img-responsive">
+				<img src="pics\store-design.jpg" alt="store-design" class="img-responsive">
 			</div>
 		</div>
 		<br>
 		<br>
 		<div class="row">
 			<div class="col-md-6 ">
-				<img src="C:\Users\HariHara\Documents\sports-items\store-design-2.jpg" alt="store-design-2" class="img-responsive">
+				<img src="pics\store-design-2.jpg" alt="store-design-2" class="img-responsive">
 			</div>
 			<div class="col-md-6">
 				<p>The retailer stocks a wide range of sporting goods, from tennis rackets to advanced scuba diving equipment, usually in large superstores which are sized at an average of 4,000m². Lazer Sportz Group also owns over 20 brands, with research and development facilities all over India to develop the latest innovative designs, registering up to 40 patents per year. Each brand represents a different sport or group of sports, with a dedicated product development and design team.</p>
@@ -192,25 +68,3 @@
 	<br>
 	<br>
 <!-- End of content -->
-<footer class="container-fluid text-center">
-	<div class="row">
-		<div class="col-sm-4">
-			<h4>Contact Us</h4>
-			<br>
-			<div>634, J S S Rd, Dhobi Talao, <br>Mumbai,  Maharashtra-400002, <br> Phone Number : 02256344620 </div>
-		</div>
-		<div class="col-sm-4">
-			<h4> Connect </h4>
-			<br>
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
-			<a href="#" class="fa fa-google"></a>
-			<a href="#" class="fa fa-youtube"></a>
-		</div>
-		<div class="col-sm-4">
-			
-		</div>
-	</div>
-</footer>
-</body>
-</html>

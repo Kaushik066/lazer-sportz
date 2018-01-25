@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="pics\LazerLogo.png" sizes="16x16" type="image/png">
+	<title> Lazer Sportz | Home</title>
+	<meta charset="utf-8">
+	<!-- Compatible with hand-held deviceses -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Font-Awesom libruary -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Start of body -->
+	<style type="text/css">
+		body{
+			color: #fff;
+			background: #5d0101;
+			padding: auto;
+		}
+	</style>
+	<!-- Start of nav bar -->
+	<style type="text/css">
+		.navbar {
+			margin-bottom: 0;
+			border-radius: 0; 
+			background-color: #000; /* black for the borders */
+			padding: 0.5% 0;
+			font-size: 1.2em;
+			border: 0;
+		}
+		.navbar-brand{
+			padding: 0 15px 5px;
+			float: left;
+			min-height: 50px;
+		}
+		.navbar-inverse .navbar-nav li a{
+			color: #9d9d9d; /* light grey color for text*/
+		}
+		.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus , .navbar-inverse .navbar-nav .active a:hover {
+			color: #fff; /* White color for active text */
+			background-color: #000;  /* black color for active button*/
+		}
+		.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+			background-color: #000; /* black color for mobile toggle button */
+			border-color:  #000;    /* Black color for mobile toggle button*/
+		}
+		.navbar-inverse .navbar-toggle .icon-bar{
+			/*background-color: #9d9d9d;  /*light grey for mobile toggle button */
+		}
+		.navbar-inverse .navbar-collapse {
+			background-color: #000; /* Black color for mobile background*/
+			border-color: #000;     /* Black color for mobile background*/
+		}
+	</style>
+	<!-- Start of Carousel slider -->
+	<style type="text/css">
+		.carousel-inner .item {
+			width:100%;
+		}
+		@media (max-width: 600px){
+			.carousel-caption{
+				display: none;
+			}
+		}
+	</style>
+	<!-- Start of row and column -->
+	<style type="text/css">
+		.container {
+			padding-right: 5px;
+    		padding-left: 10px;
+    		margin-left: auto;
+    		margin-right: auto;
+    		font-size: 1.2em;
+		}
+	</style>
+	<!-- Start of footer -->
+	<style type="text/css">
+		footer{
+			width: 100%;
+			background-color: #000;
+			padding: 5%;
+			color: #fff;
+		}
+		.fa{
+			padding: 20px;
+			font-size: 25px;
+			color: #fff;
+		}
+		.fa:hover{
+			text-decoration: none;
+		}
+		@media(max-width: 900px){
+			.fa{
+				padding: 10px;
+				font-size: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Start of nav bar  navbar-fixed-top -->
+	<nav class="navbar navbar-inverse ">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="pics/Lazer Sportz.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">HOME</a></li>
+					<li><a href="items.html">ITEMS</a></li>
+					<li><a href="#">GALARY</a></li>
+					<li><a href="#">MY CART</a></li>
+					<li><a href="#">LOGIN</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- End of nav bar -->
+	{{content}}
+<!-- Start of footer -->
+<footer class="container-fluid text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<h4>Contact Us</h4>
+			<br>
+			<div>634, J S S Rd, Dhobi Talao, <br>Mumbai,  Maharashtra-400002, <br> Phone Number : 02256344620 </div>
+		</div>
+		<div class="col-sm-4">
+			<h4> Connect </h4>
+			<br>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		</div>
+		<div class="col-sm-4">
+			
+		</div>
+	</div>
+</footer>
+<!-- End of footer -->
+</body>
+</html>
