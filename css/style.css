@@ -18,6 +18,9 @@ body{
 	float: left;
 	min-height: 50px;
 }
+.current {
+	color: #fff;  /*White color for active text */
+}
 .navbar-inverse .navbar-nav li a{
 	color: #9d9d9d; /* light grey color for text*/
 }
@@ -36,6 +39,8 @@ body{
 	background-color: #000; /* Black color for mobile background*/
 	border-color: #000;     /* Black color for mobile background*/
 }
+
+
 /* Start of Carousel slider */
 .carousel-inner .item {
 	width:100%;
