@@ -1,0 +1,76 @@
+/* Start of body */
+body{
+	color: #fff;
+	background: #5d0101;
+	padding: auto;
+}
+/* Start of nav bar */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0; 
+	background-color: #000; /* black for the borders */
+	padding: 0.5% 0;
+	font-size: 1.2em;
+	border: 0;
+}
+.navbar-brand{
+	padding: 0 15px 5px;
+	float: left;
+	min-height: 50px;
+}
+.navbar-inverse .navbar-nav li a{
+	color: #9d9d9d; /* light grey color for text*/
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus , .navbar-inverse .navbar-nav .active a:hover {
+	color: #fff; /* White color for active text */
+	background-color: #000;  /* black color for active button*/
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #000; /* black color for mobile toggle button */
+	border-color:  #000;    /* Black color for mobile toggle button*/
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	/*background-color: #9d9d9d;  /*light grey for mobile toggle button */
+}
+.navbar-inverse .navbar-collapse {
+	background-color: #000; /* Black color for mobile background*/
+	border-color: #000;     /* Black color for mobile background*/
+}
+/* Start of Carousel slider */
+.carousel-inner .item {
+	width:100%;
+}
+@media (max-width: 600px){
+	.carousel-caption{
+		display: none;
+	}
+}
+/* Start of row and column */
+.container {
+	padding-right: 5px;
+	padding-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.2em;
+}
+/* Start of footer */
+footer{
+	width: 100%;
+	background-color: #000;
+	padding: 5%;
+	color: #fff;
+}
+.fa{
+	padding: 20px;
+	font-size: 25px;
+	color: #fff;
+}
+.fa:hover{
+	text-decoration: none;
+}
+@media(max-width: 900px){
+	.fa{
+		padding: 10px;
+		font-size: 20px;
+	}
+}
