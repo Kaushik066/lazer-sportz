@@ -55,8 +55,26 @@ footer{
 .fa:hover{
 	text-decoration: none;
 }
+.container-fluid .fa-facebook:hover, .container-fluid .fa-facebook:focus{
+	color: #4e67a5;  /* Facebook color */
+}
+.container-fluid .fa-twitter:hover, .container-fluid .fa-twitter:focus{
+	color: #18b4f0;  /* Twitter color */
+}
+.container-fluid .fa-google-plus:hover, .container-fluid .fa-google-plus:focus{
+	color: #e62e42;  /* Google color */
+}
 .copycredit{
 	font-size: 15px;
+}
+.container-fluid .copycredit a{
+	text-decoration: none;
+	color: #fff;
+} 
+.container-fluid .copycredit a:hover, .container-fluid .copycredit a:focus{
+	color: #24dc11;
+	cursor: pointer;
+	text-decoration: none;
 }
 @media(max-width: 900px){
 	.fa{
@@ -85,7 +103,14 @@ footer{
 }
 
 /* items page */
-
+.container a {
+	color: #fff;
+}
+.container a:hover, .container a:focus{
+	color: #9d9d9d;  /*light grey for mobile toggle button */ 
+	text-decoration: none;
+	
+}
 #icon{
 	padding: 10px ;
 	max-width: 250px;
